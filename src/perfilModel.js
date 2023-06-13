@@ -40,7 +40,7 @@ const Perfil = db.define('perfil', {
     timestamps: false
 });
 
-Local.hasOne(Perfil, { as: 'perfil', foreignKey: 'perfil_id' });
+Local.hasOne(Perfil, { as: 'perfil', foreignKey: 'localizacao_id' });
 Perfil.belongsTo(Local, {
     as: 'localizacao',
     foreignKey: 'localizacao_id'

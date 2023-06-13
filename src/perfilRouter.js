@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
-    const perfil = await Perfil.findByPk(req.params.id);
+    const perfil = await Perfil.findByPk(req.params.id, { include: 'localizacao' });
     res.send(perfil);
 });
 
@@ -19,7 +19,8 @@ router.get('/matricula/:matricula', async (req, res) => {
     const perfil = await Perfil.findOne({
         where: {
             matricula: req.params.matricula
-        }
+        },
+        include: 'localizacao'
     })
     res.send(perfil)
 });
@@ -28,7 +29,8 @@ router.get('/cpf/:cpf', async (req, res) => {
     const perfil = await Perfil.findOne({
         where: {
             cpf: req.params.cpf
-        }
+        },
+        include: 'localizacao'
     })
     res.send(perfil)
 });
@@ -53,13 +55,10 @@ router.delete('/:id', async (req, res) => {
 router.post('/:id/local', async (req, res) => {
     let perfil = await Perfil.findByPk(req.params.id, { include: 'localizacao' });
     const local = await Local.build(req.body);
-    local.perfil_id = perfil.id
+    perfil.localizacao_id = perfil.id;
 
-    const result = await local.save();
-    perfil.localizacao_id = result.id;
-
-    perfil = await perfil.save();
-    res.send(perfil)
+    const result = await perfil.save();
+    res.send(result)
 });
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-const dbSequelize = new Sequelize('perfil', 'root', 'aluno.ifal22', {
+const dbSequelize = new Sequelize('perfil', 'root', 'nb10205690', {
     dialect: 'mysql', host: 'localhost'
 });
 
