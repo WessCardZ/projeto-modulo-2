@@ -54,10 +54,20 @@ router.delete('/:id', async (req, res) => {
 
 router.post('/:id/local', async (req, res) => {
     let perfil = await Perfil.findByPk(req.params.id, { include: 'localizacao' });
-    const local = await Local.build(req.body);
-    perfil.localizacao_id = perfil.id;
+    let local = await Local.build(req.body);
+    const result = await local.save();
+    perfil.localizacao_id = result.id;
+    perfil = await perfil.save();
+    res.send(result)
+});
 
-    const result = await perfil.save();
+router.put('/:id/local/:idLocal', async (req, res) => {
+    const perfil = await Perfil.findByPk(req.params.id, { include: 'localizacao' })
+    const local = await Local.findByPk(req.params.idLocal)
+
+    local.update({ ...local, ...req.body })
+
+    const result = await local.save()
     res.send(result)
 });
 
