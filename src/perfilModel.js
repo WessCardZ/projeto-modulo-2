@@ -21,17 +21,17 @@ const Perfil = db.define('perfil', {
         type: DataTypes.INTEGER,
     },
     data_nascimento: {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY,
     },
     cpf: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING(11),
         allowNull: false,
         unique: true
     },
-    tipo: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
+    // tipo: {
+    //     type: DataTypes.STRING,
+    //     allowNull: false
+    // },
     foto: {
         type: DataTypes.STRING
     }
@@ -44,6 +44,7 @@ Local.hasOne(Perfil, { as: 'perfil', foreignKey: 'localizacao_id' });
 Perfil.belongsTo(Local, {
     as: 'localizacao',
     foreignKey: 'localizacao_id'
-})
+});
+
 
 module.exports = Perfil;

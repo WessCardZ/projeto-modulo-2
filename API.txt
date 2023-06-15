@@ -2,11 +2,11 @@
 
 {
     "nome": "Alessandra Pereira de França",
-    "idade": "2022337197",
-    "data_nascimento": "",
+    "idade": 19,
+    "data_nascimento": "2004-02-02",
     "cpf": "71396088490",
     "tipo": "aluno",
-    "matricula": "20221020",
+    "matricula": 2022337197,
     "foto": "https://drive.google.com/file/d/1SZY5jEWugIiHdnXPtZhuTs2JjwvrkG5J/view"
 }
 
@@ -68,6 +68,16 @@
     "tipo": "aluno",
     "matricula": "2021333095",
     "foto": "https://drive.google.com/file/d/1FcAgFqwmpHuEu8Abmm4pqPRwNqF1QEQp/view"
+}
+
+{
+    "nome": "Mayara Emillyn Leopoldino da Silva",
+    "idade": 19,
+    "data_nascimento": "2003-09-27",
+    "cpf": "17731156699",
+    "tipo": "aluno",
+    "matricula": 2022336055,
+    "foto": "https://drive.google.com/file/d/1tqU8ATXySRmvq0N7ybCKAYgztjd5fZrf/view"
 }
 
 //TIPO: Professor
