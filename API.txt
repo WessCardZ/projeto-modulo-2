@@ -63,7 +63,7 @@
 {
     "nome": "Whydger Silva Ferreira Fernandes",
     "idade": "",
-    "data_nascimento": "",
+    "data_nascimento": "1997-09-17",
     "cpf": "73320026470",
     "tipo": "aluno",
     "matricula": "2021333095",
