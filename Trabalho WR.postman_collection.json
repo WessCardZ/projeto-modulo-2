@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "44e3acc5-0a0d-4eff-9fc0-388576065c6f",
+		"name": "Trabalho WR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27562550"
+	},
+	"item": [
+		{
+			"name": "GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET MATRICULA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil/matricula/20223080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"matricula",
+						"20223080"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CPF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil/cpf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"cpf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Shara Raiane da Silva Santos\",\r\n    \"idade\": 19,\r\n    \"data_nascimento\": \"2004-05-05\",\r\n    \"cpf\": \"51573551490\",\r\n    \"matricula\": 2022337188,\r\n    \"foto\": \"https://drive.google.com/file/d/1EF4YfKRi3YfAp9eHHamdRA6VgOnObguf/view\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/perfil",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/perfil/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST LOCAL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cidade\": \"Rio Largo\",\r\n    \"estado\": \"AL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/perfil/8/local",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"8",
+						"local"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT LOCAL",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"estado\": \"Santos do Mont\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/perfil/3/local/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"perfil",
+						"3",
+						"local",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

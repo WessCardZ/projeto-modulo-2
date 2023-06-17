@@ -52,9 +52,10 @@ router.delete('/:id', async (req, res) => {
     res.status(204).send();
 });
 
-router.post('/:id/local', async (req, res) => {
+router.post('/:id/local/', async (req, res) => {
     let perfil = await Perfil.findByPk(req.params.id, { include: 'localizacao' });
     let local = await Local.build(req.body);
+    local.user_id = perfil.id
     const result = await local.save();
     perfil.localizacao_id = result.id;
     perfil = await perfil.save();

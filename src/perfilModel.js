@@ -28,10 +28,6 @@ const Perfil = db.define('perfil', {
         allowNull: false,
         unique: true
     },
-    // tipo: {
-    //     type: DataTypes.STRING,
-    //     allowNull: false
-    // },
     foto: {
         type: DataTypes.STRING
     }
@@ -40,7 +36,6 @@ const Perfil = db.define('perfil', {
     timestamps: false
 });
 
-Local.hasOne(Perfil, { as: 'perfil', foreignKey: 'localizacao_id' });
 Perfil.belongsTo(Local, {
     as: 'localizacao',
     foreignKey: 'localizacao_id'

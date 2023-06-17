@@ -1,11 +1,8 @@
-// TIPOS: alunos(por enquanto)
-
 {
     "nome": "Alessandra Pereira de França",
     "idade": 19,
     "data_nascimento": "2004-02-02",
     "cpf": "71396088490",
-    "tipo": "aluno",
     "matricula": 2022337197,
     "foto": "https://drive.google.com/file/d/1SZY5jEWugIiHdnXPtZhuTs2JjwvrkG5J/view"
 }
@@ -15,58 +12,52 @@
     "idade": "",
     "data_nascimento": "",
     "cpf": "63262934640",
-    "tipo": "aluno",
     "matricula": "2022336073",
     "foto": "https://drive.google.com/file/d/1sJpeTiBxwJ8nmjjJDyLYLNu5HSHQqoz0/view"
 }
 
 {
     "nome": "Luan Oliveira dos Santos",
-    "idade": "",
-    "data_nascimento": "",
+    "idade": 22,
+    "data_nascimento": "2001-05-17",
     "cpf": "65444267845",
-    "tipo": "aluno",
-    "matricula": "2020328223",
+    "matricula": 2020328223,
     "foto": "https://drive.google.com/file/d/14-ocurjMHmX9262Cj6Al-p4OTKOoLLIB/view"
 }
 
 {
     "nome": "Rebeca Vital de Araújo",
-    "idade": "20",
+    "idade": 20,
     "data_nascimento": "2003-05-17",
     "cpf": "2022337203",
-    "tipo": "aluno",
-    "matricula": "20224050",
+    "matricula": 20224050,
     "foto": "https://drive.google.com/file/d/1mqZprcLJavqBbutab6h7_Dg1QSE8fn5z/view"
 }
 
 {
     "nome": "Robert Alan Morais de Albuquerque",
-    "idade": "18",
+    "idade": 18,
     "data_nascimento": "2004-08-06",
     "cpf": "86166593236",
-    "tipo": "aluno",
-    "matricula": "2022336064",
+    "matricula": 2022336064,
     "foto": "https://drive.google.com/file/d/1cnoHuN360kuFe_FBLvY5DAYMnm_08UuZ/view"
 }
 
 {
     "nome": "Wesley da Silva Cardozo",
-    "idade": "19",
+    "idade": 19,
     "data_nascimento": "2004-04-01",
     "cpf": "09672739516",
-    "tipo": "aluno",
-    "matricula": "2022336206",
+    "matricula": 2022336206,
     "foto": "https://drive.google.com/file/d/1b7Zmv4SzeslDn-5b8Hqrp6oBDxipNTtg/view"
 }
 
 {
     "nome": "Whydger Silva Ferreira Fernandes",
-    "idade": "",
+    "idade": 25,
     "data_nascimento": "1997-09-17",
     "cpf": "73320026470",
-    "tipo": "aluno",
-    "matricula": "2021333095",
+    "matricula": 2021333095,
     "foto": "https://drive.google.com/file/d/1FcAgFqwmpHuEu8Abmm4pqPRwNqF1QEQp/view"
 }
 
@@ -75,17 +66,15 @@
     "idade": 19,
     "data_nascimento": "2003-09-27",
     "cpf": "17731156699",
-    "tipo": "aluno",
     "matricula": 2022336055,
     "foto": "https://drive.google.com/file/d/1tqU8ATXySRmvq0N7ybCKAYgztjd5fZrf/view"
 }
 
-//TIPO: Professor
-
 {
-    "Nome": "Glauber Vinicius Ventura de Melo Ferreira",
-    "Deparamento": "Coord. do curso tecnico em informatica/CRIO",
-    "Formação": "Doutorado",
-    "tipo": "professor",
-    "foto": "(sem link ainda, pois é duvida)"
+    "nome": "Shara Raiane da Silva Santos",
+    "idade": 19,
+    "data_nascimento": "2004-05-05",
+    "cpf": "51573551490",
+    "matricula": 2022337188,
+    "foto": "https://drive.google.com/file/d/1EF4YfKRi3YfAp9eHHamdRA6VgOnObguf/view"
 }
