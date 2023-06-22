@@ -41,7 +41,7 @@ describe('Testes da API de Usuários', function () {
       assert.strictEqual(usuario.cpf.length, 11);
     });
   });
-  
+
 
   it('A idade de cada usuário deve ser um número maior que 0', function () {
     usuarios.forEach(function (usuario) {
@@ -56,3 +56,6 @@ describe('Testes da API de Usuários', function () {
 //  Por favor, me salva. Minha dupla é meio doida da cabeça "Wesley", ele precisa de ajuda médica urgente... faz alguns dias que estamos quase terminando o trabalho
 //  E ele vem com história de que vai querer colocar alguma coisa nova, tipo ???? que aluno é esse cara, o cara tá parecendo o Gluber mano. WTF!!!!!.
 //  No mínimo uma dose seria de terapia, é necessária. ME AJUDA DAVID!!!!!
+
+
+// É mentira dele! by: Wesley

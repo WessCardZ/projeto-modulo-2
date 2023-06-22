@@ -2,6 +2,8 @@
 
 body {
     background-color: #1b1e23;
+    display: flex;
+    justify-content: center;
 }
 
 img {
