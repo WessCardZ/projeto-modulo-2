@@ -7,3 +7,26 @@ Também ao lado esquerdo da página tem a posição de cada aluno, que está em 
 
 DA NPM INSTALL MOCHA
 
+
+
+
+AVISO!!!!!!!!!!!!!!!!!!
+
+Nos usamos nossa propria API, então é necessário a extensão no google chamada CORS para funcionar. Obrigado pela atenção.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Easter egg:
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
