@@ -27,9 +27,6 @@ const Perfil = db.define('perfil', {
         type: DataTypes.STRING(11),
         allowNull: false,
         unique: true
-    },
-    foto: {
-        type: DataTypes.STRING
     }
 }, {
     tableName: 'perfil',
