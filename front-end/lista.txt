@@ -1,0 +1,9 @@
+Essa é a nossa aplicação
+
+É uma lista de alunos, com  o foco em armazenar as informações dos tais. 
+Tem em sua essência métodos usados na randomuser api, que é uma api randomica, mas em contraparte, não temos informações aleátorias dos alunos, entretanto, 
+possui as informações de um perfil aluno necessário de um perfil, o qual se da nas informações: nome,cpf,idade,data de nascimento e estado.
+Também ao lado esquerdo da página tem a posição de cada aluno, que está em ordem alfabetica.
+
+DA NPM INSTALL MOCHA
+
